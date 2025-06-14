@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://enhk2piatpdj"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_7u77a"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Background" type="TextureRect" parent="."]
+self_modulate = Color(0.286275, 0.454902, 1, 1)
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = SubResource("CanvasTexture_7u77a")
